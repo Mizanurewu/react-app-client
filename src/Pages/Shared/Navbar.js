@@ -18,7 +18,7 @@ const Navbar = () => {
                             <li><Link to='/contact'>Contact</Link></li>
                         </ul>
                     </div>
-                    <button><img src={logo} alt="" /></button>
+                    <Link to='/'><img src={logo} alt="" /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal font-semibold px-1">
