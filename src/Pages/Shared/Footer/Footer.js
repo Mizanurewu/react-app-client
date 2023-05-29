@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <footer className="footer p-10 bg-[#132742] text-white">
                 <div>
-                    <button className='hover:scale-105 transition-transform'><img src={logo} alt="" /></button>
+                    <Link to='/'><img className='hover:scale-105 transition-transform' src={logo} alt="" /></Link>
                     <Link className="link link-hover">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br></br> Asperiores a pariatur officiis dele</Link>
                     <button className='hover:scale-105 transition-transform'><img src={apple} alt="" /></button>
                     <button className='hover:scale-105 transition-transform'><img src={google} alt="" /></button>

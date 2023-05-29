@@ -11,7 +11,7 @@ import Vector2 from '../../../assets/icons/home/Vector2.png'
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-[#EDEEF3] pb-[150px] overflow-hidden" style={{ position: 'relative', zIndex: '1' }}>
+        <div className="hero min-h-screen bg-[#EDEEF3] pb-[30px] overflow-hidden" style={{ position: 'relative', zIndex: '1' }}>
             <div className=''>
                 <div className="hero-content relative flex-col lg:flex-row-reverse">
                     <div className='sm:hidden md:hidden lg:block'>
