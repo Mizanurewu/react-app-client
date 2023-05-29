@@ -23,7 +23,7 @@ const Teachers = () => {
             id: 3,
             name: 'Jahaanr Khan',
             des: 'UX Designer',
-            img: teacher1
+            img: teacher3
         },
         {
             id: 4,
@@ -38,11 +38,10 @@ const Teachers = () => {
         <div className='bg-[#EDEEF3] p-16'>
             <h5 className='text-xl font-semibold text-center text-blue-400'>Team Member</h5>
             <h1 className='text-5xl text-center font-bold'>Popular Professional <br></br>Teachers</h1>
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-                {teachers.map(teacher => <Teacher
-                    key={teachers.id}
-                    teacher={teacher}
-                ></Teacher>)}
+            <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+                {teachers.map((teacher) => (
+                    <Teacher key={teacher.id} teacher={teacher} />
+                ))}
             </div>
         </div>
     );

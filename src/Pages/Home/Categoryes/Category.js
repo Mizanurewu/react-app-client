@@ -2,9 +2,8 @@ import React from 'react';
 
 const Category = ({ category }) => {
     const { name, logo, background } = category;
-    console.log(background)
     return (
-        <div>
+        <div className='hover:scale-105 transition-transform'>
             <div className={`w-full h-80 bg-[${background}] flex flex-col items-center justify-center rounded-lg`}>
                 <div>
                     <img src={logo} alt="" />

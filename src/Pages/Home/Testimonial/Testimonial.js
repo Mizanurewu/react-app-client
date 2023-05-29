@@ -14,7 +14,7 @@ const Testimonial = () => {
                     <div className=''>
                         <div className='w-[250px] h-36  bg-[#EDEEF3] border-2 rounded-xl border-black '></div>
                     </div>
-                    <div className='absolute w-[200px] top-4 right-4'>
+                    <div className='absolute w-[200px] top-4 right-4 '>
                         <p>Lorem ipsum dolor iusto animi unde officia quos r odio rerum magnam ex delectus mollitia?</p>
                         <div className='flex justify-between items-center'>
                             <h2 className='font-bold'>Romana Akter</h2>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                     <p className="py-6 text-5xl font-bold">What They Say?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum incidunt natus voluptate quae consequuntur. Fugiat,labore nulla consequuntur eum, officia dicta. Vel ducimus ad ratione numquam cum ratione possimus,<br></br><br></br> tempore facilis ducimus neque aperiam nemo quia et, eveniet veniam debitis.
                         Error assumenda consequatur quos quibusdam ex. Consequatur eaque coruntur t.</p>
-                    <button class="m-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
+                    <button className="m-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
                         Write Your Assignment
                         <FontAwesomeIcon className='ms-3' icon={faArrowRight} />
                     </button>
