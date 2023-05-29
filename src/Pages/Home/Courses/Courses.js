@@ -49,7 +49,7 @@ const Courses = () => {
         }
     ]
     return (
-        <div className='mt-24 p-6 bg-[#EDEEF3] pb-24'>
+        <div className='mt-16 p-6 bg-[#EDEEF3] pb-24'>
             <h4 className='text-xl text-[#6278FF]'>Course List</h4>
             <h1 className='text-5xl font-semibold pt-4'>Find Your Perfect <br></br>Course</h1>
 

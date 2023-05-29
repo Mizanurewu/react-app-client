@@ -11,7 +11,7 @@ import Vector2 from '../../../assets/icons/home/Vector2.png'
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-[#EDEEF3] pb-[150px] overflow-hidden">
+        <div className="hero min-h-screen bg-[#EDEEF3] pb-[150px] overflow-hidden" style={{ position: 'relative', zIndex: '1' }}>
             <div className=''>
                 <div className="hero-content relative flex-col lg:flex-row-reverse">
                     <div className='sm:hidden md:hidden lg:block'>
@@ -34,7 +34,6 @@ const Banner = () => {
                         <div className="absolute flex items-center justify-center top-[450px] right-[300px] z-0">
                             <img src={mouse} className="w-full" alt="Icon" />
                         </div>
-                        
                     </div>
                     <div>
                         <h1 className="text-[80px] font-bold">For Every Students<br /> Every Classroom.<br />
@@ -54,11 +53,12 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='absolute -bottom-30 -left-8'>
-                    <img src={Vector1} alt="" />
+                <div className='absolute -bottom-30 -left-8' style={{ position: 'absolute', zIndex: '2' }}>
+                    <img className='' src={Vector1} alt="imgg" />
                 </div>
             </div>
         </div>
+
 
     );
 };

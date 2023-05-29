@@ -62,7 +62,7 @@ const TeemMembers = () => {
     ]
     return (
         <div>
-            <div className='bg-[#EDEEF3] p-16'>
+            <div className='bg-[#EDEEF3] p-10'>
                 <h5 className='text-xl font-semibold text-center text-blue-400'>Team Member</h5>
                 <h1 className='text-5xl text-center font-bold'>The Amazing  <br></br>Teem Of Us</h1>
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
